@@ -1,0 +1,23 @@
+
+1. 로컬 저장소 생성
+ - git init
+
+2. 내 정보 등록
+ - git config --global user.email "깃허브의 이메일 계정"
+ - git config --global user.name "이름 or 계정명"
+
+3. 커밋에 추가할 파일
+ - git add 파일명
+
+4. 커밋 & 커밋 메시지 입력
+ - git commit -m "커밋 메시지"
+
+5. 커밋 이력 확인
+ - git log
+
+6. 커밋 이동
+ - 특정 커밋으로 이동 : git checkout 커밋아이디
+ - 최신 커밋으로 이동 : git checkout -
+
+7. 로컬저장소에 원격저장소 주소 추가
+ - git remote add origin 원격저장소 주소(https://github.com/hand4y/GIT_CLI_Practice.git) 
