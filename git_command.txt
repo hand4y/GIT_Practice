@@ -20,4 +20,14 @@
  - 최신 커밋으로 이동 : git checkout -
 
 7. 로컬저장소에 원격저장소 주소 추가
- - git remote add origin 원격저장소 주소(https://github.com/hand4y/GIT_CLI_Practice.git) 
+ - git remote add origin 원격저장소 주소(https://github.com/hand4y/GIT_Practice.git) 
+ - (origin 이라는 이름으로 원격저장소를 추가하라.)
+
+8. 'main'명으로 브렌치 생성
+ - git branch -M main
+
+9. push
+ - git push origin main
+ -> 이때 username, pw 입력하라고 하는데 21년 8월부터 pw 입력 방식이 사라짐.
+ -> 때문에 pw 입력시 personal access token을 넣어야 한다.
+
